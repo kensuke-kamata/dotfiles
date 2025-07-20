@@ -35,3 +35,6 @@ Plug 'tpope/vim-commentary'
 
 imap jj <Esc>
 set clipboard=unnamed
+
+nnoremap <C-v> <C-v>
+inoremap <C-v> <Action>(EditorPaste)
