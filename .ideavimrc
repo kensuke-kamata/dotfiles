@@ -37,4 +37,4 @@ imap jj <Esc>
 set clipboard=unnamed
 
 nnoremap <C-v> <C-v>
-inoremap <C-v> <Action>(EditorPaste)
+inoremap <C-v> <C-r>+
