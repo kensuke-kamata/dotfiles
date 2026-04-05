@@ -1,0 +1,10 @@
+{
+  "autoUpdatesChannel": "latest",
+  "enabledPlugins": {
+    "skill-creator@claude-plugins-official": true
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "bash ~/.claude/statusline-command.sh"
+  }
+}

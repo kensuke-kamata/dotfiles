@@ -1,0 +1,13 @@
+# Exclude everything by default
+*
+
+# Track these explicitly
+!.gitignore
+!settings.json
+!statusline-command.sh
+!CLAUDE.md
+
+# Skills
+!skills/
+!skills/**/
+!skills/**
