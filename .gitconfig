@@ -1,0 +1,14 @@
+[user]
+	name = kensuke-kamata
+	email = kn12kamata@gmail.com
+[core]
+	editor = vim
+	autocrlf = true
+[init]
+	defaultBranch = main
+[color]
+	ui = auto
+[gc]
+	auto = 256
+[alias]
+	lg = log --oneline --graph --decorate --all
