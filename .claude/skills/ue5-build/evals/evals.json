@@ -1,0 +1,23 @@
+{
+  "skill_name": "ue5-build",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "UE5のソースをDebugGameでビルドしたい。UE5のルートは D:\\projects\\UE5 にある。どうすればいい？",
+      "expected_output": "排他的ビルドチェック（tasklist）の実施を促し、Build.bat UnrealEditor Win64 DebugGame -WaitMutex コマンドを提示する。成功時のバイナリパスも示す。",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Build.batを実行したら以下のエラーが出た。どうすればいい？\n\nERROR: Couldn't find target rules file for target 'UnrealEditor' in any rules assembly. Possible causes:\n  1) Target was deleted\n  2) Project was not included in the build",
+      "expected_output": "実行ディレクトリ（UE5ルートから実行しているか）の確認を促し、正しいパスでの Build.bat の実行方法を示す。",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "ビルドを始める前に、他のビルドプロセスが動いていないか確認したい。どうすればいい？",
+      "expected_output": "tasklist コマンドで MSBuild.exe, UnrealBuildTool.exe, cl.exe, xgConsole.exe, xge.exe を確認する方法を示す。競合があった場合の対処法も説明する。",
+      "files": []
+    }
+  ]
+}
